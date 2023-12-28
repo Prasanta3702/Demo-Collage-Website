@@ -1,0 +1,228 @@
+.heading {
+    height: 70px;
+    background-color: blue;
+    color: white;
+}
+
+#logo {
+    text-decoration: none;
+    color: white;
+
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24px;
+
+}
+
+.name {
+    width: 150px;
+    display: block;
+    margin-left: 30px;
+}
+
+.content1 {
+    text-align: center;
+    background-color: white;
+}
+.content1 > h2 {
+    color: blue;
+    margin: 20px;
+}
+
+.programs {
+    background-color: rgb(216, 212, 212);
+    height: 400px;
+}
+
+.programHeading {
+    background-color: blue;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    width: 350px;
+    height: 50px;
+    color: white;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.program1 {
+    border: 2px solid gray;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    display: inline-block;
+    margin: 20px;
+    float: left;
+    padding: 20px;
+}
+
+.program2 {
+    border: 2px solid gray;
+    width: 300px;
+    height: 300px;
+    background-color: lightblue;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    float: left;
+}
+
+.program3 {
+    border: 2px solid gray;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    display: inline-block;
+    margin: 20px;
+    float: left;
+    padding: 20px;
+}
+
+.program4 {
+    border: 2px solid gray;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: lightblue;
+    margin: 20px;
+    float: left;
+    padding: 20px;
+}
+
+.approvals {
+    width: 100%;
+    text-align: center;
+}
+
+.approvals > .approvalHeading {
+    border: 2px solid blue;
+    width: 600px;
+    background-color: blue;
+    color: white;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.approvals > .approval1 {
+    border: 1px solid black;
+    background-color: rgb(229, 247, 250);
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+
+    background-image: url("ap1.jpg");
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.approvals > .approval2 {
+    border: 1px solid black;
+    background-color: rgb(229, 247, 250);
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+
+    background-image: url("ap2.jpg");
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.approvals > .approval3 {
+    border: 1px solid black;
+    background-color: rgb(229, 247, 250);
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+
+    background-image: url("ap3.jpg");
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.approvals > .approval4 {
+    border: 1px solid black;
+    background-color: rgb(229, 247, 250);
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+
+    background-image: url("ap4.jpg");
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.approvals > .approval5 {
+    border: 1px solid black;
+    background-color:rgb(229, 247, 250);
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+
+    background-image: url("ap5.jpg");
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.approvals > .approval6 {
+    border: 1px solid black;
+    background-color: rgb(229, 247, 250);
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    background-repeat: no-repeat;
+
+    background-image: url("ap6.jpg");
+    background-size: 100px;
+    background-position: center;
+}
+
+.quickContact {
+    background-color: white;
+    height: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.quickContact > .form {
+    width: 70%;
+    height: 400px;
+    background-color: #0050a7;
+    display: inline-block;
+    padding: 50px;
+}
+.quickContact > .form > .formHeading {
+    font-family: sans-serif;
+    font-size: 34px;
+    color: white;
+    padding-left: 20px;
+}
+
+.quickContact > .formContact {
+    height: 400px;
+    width: 30%;
+    background-color: #0a63c4;
+    display: inline-block;
+    float: right;
+}
+
+.quickContact > .form > .inputForm {
+    margin: 20px;
+}
+
+
+.quickContact > .form > .inputForm > #messageBox {
+    display: block;
+    width: 100%;
+    margin-top: 30px
+}
+
+.quickContact > .form > .submitBtn {
+    margin-top: 10px;
+    padding-left: 20px;
+}
